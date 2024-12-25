@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "date_start": "1734854400",
+            "date_finish": "1734868800",
+            "name": "My task",
+            "description": "Описание моего дела"
+        },
+        {
+            "id": 2,
+            "date_start": "1734696000",
+            "date_finish": "1734696000",
+            "name": "My task 2",
+            "description": "Описание моего дела"
+        }
+    ]
+}

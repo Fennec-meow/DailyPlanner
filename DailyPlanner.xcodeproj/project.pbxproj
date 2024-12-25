@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6797C39D7F5BEC6D5EB71ADB /* Pods_DailyPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307AA07658EE28340D20087B /* Pods_DailyPlannerTests.framework */; };
+		8794FBFCBFB4C18541720F8C /* Pods_DailyPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AAC155388C138D07584EF8 /* Pods_DailyPlanner.framework */; };
+		DA1B37E674A01FB00B5196C6 /* Pods_DailyPlanner_DailyPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AB1CE7EC075FCFC123A5BF /* Pods_DailyPlanner_DailyPlannerUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE25D5422D05BFA800E12E29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,13 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0604D76D84F0D314031455 /* Pods-DailyPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.release.xcconfig"; path = "Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		307AA07658EE28340D20087B /* Pods_DailyPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E98CB8E50AA672B5B9AD710 /* Pods-DailyPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-DailyPlannerTests/Pods-DailyPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B4BA3D4780A88C1B7BBB16 /* Pods-DailyPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.debug.xcconfig"; path = "Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9204E761CD569B92C6AECA /* Pods-DailyPlanner-DailyPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner-DailyPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-DailyPlanner-DailyPlannerUITests/Pods-DailyPlanner-DailyPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D2007E958EB1A3A0505A09B /* Pods-DailyPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlannerTests.release.xcconfig"; path = "Target Support Files/Pods-DailyPlannerTests/Pods-DailyPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE25D52B2D05BFA600E12E29 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE25D5412D05BFA800E12E29 /* DailyPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE25D54B2D05BFA800E12E29 /* DailyPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AAC155388C138D07584EF8 /* Pods_DailyPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B622BEC03DB61F51B16B7D /* Pods-DailyPlanner-DailyPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner-DailyPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-DailyPlanner-DailyPlannerUITests/Pods-DailyPlanner-DailyPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2AB1CE7EC075FCFC123A5BF /* Pods_DailyPlanner_DailyPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyPlanner_DailyPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CE25D5532D05BFA800E12E29 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */ = {
+		CEE8D7E22D101ABE00A3A4B2 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +58,7 @@
 		CE25D52D2D05BFA600E12E29 /* DailyPlanner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CE25D5532D05BFA800E12E29 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */,
+				CEE8D7E22D101ABE00A3A4B2 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */,
 			);
 			path = DailyPlanner;
 			sourceTree = "<group>";
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8794FBFCBFB4C18541720F8C /* Pods_DailyPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6797C39D7F5BEC6D5EB71ADB /* Pods_DailyPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1B37E674A01FB00B5196C6 /* Pods_DailyPlanner_DailyPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73FF511A19FC63AC482284B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAC155388C138D07584EF8 /* Pods_DailyPlanner.framework */,
+				F2AB1CE7EC075FCFC123A5BF /* Pods_DailyPlanner_DailyPlannerUITests.framework */,
+				307AA07658EE28340D20087B /* Pods_DailyPlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70693DA4E7E68D3ABFAC5DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84B4BA3D4780A88C1B7BBB16 /* Pods-DailyPlanner.debug.xcconfig */,
+				2C0604D76D84F0D314031455 /* Pods-DailyPlanner.release.xcconfig */,
+				F0B622BEC03DB61F51B16B7D /* Pods-DailyPlanner-DailyPlannerUITests.debug.xcconfig */,
+				8D9204E761CD569B92C6AECA /* Pods-DailyPlanner-DailyPlannerUITests.release.xcconfig */,
+				6E98CB8E50AA672B5B9AD710 /* Pods-DailyPlannerTests.debug.xcconfig */,
+				9D2007E958EB1A3A0505A09B /* Pods-DailyPlannerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE25D5222D05BFA600E12E29 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				CE25D5442D05BFA800E12E29 /* DailyPlannerTests */,
 				CE25D54E2D05BFA800E12E29 /* DailyPlannerUITests */,
 				CE25D52C2D05BFA600E12E29 /* Products */,
+				A70693DA4E7E68D3ABFAC5DD /* Pods */,
+				73FF511A19FC63AC482284B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE25D5542D05BFA800E12E29 /* Build configuration list for PBXNativeTarget "DailyPlanner" */;
 			buildPhases = (
+				1E3F903367A643A165F1F9A0 /* [CP] Check Pods Manifest.lock */,
 				CE25D5272D05BFA600E12E29 /* Sources */,
 				CE25D5282D05BFA600E12E29 /* Frameworks */,
 				CE25D5292D05BFA600E12E29 /* Resources */,
+				DF1BCD9BE841EEA18C192B47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				CE25D52D2D05BFA600E12E29 /* DailyPlanner */,
 			);
 			name = DailyPlanner;
-			packageProductDependencies = (
-			);
 			productName = DailyPlanner;
 			productReference = CE25D52B2D05BFA600E12E29 /* DailyPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE25D5592D05BFA800E12E29 /* Build configuration list for PBXNativeTarget "DailyPlannerTests" */;
 			buildPhases = (
+				3600A91062252300D939911B /* [CP] Check Pods Manifest.lock */,
 				CE25D53D2D05BFA800E12E29 /* Sources */,
 				CE25D53E2D05BFA800E12E29 /* Frameworks */,
 				CE25D53F2D05BFA800E12E29 /* Resources */,
@@ -147,8 +191,6 @@
 				CE25D5442D05BFA800E12E29 /* DailyPlannerTests */,
 			);
 			name = DailyPlannerTests;
-			packageProductDependencies = (
-			);
 			productName = DailyPlannerTests;
 			productReference = CE25D5412D05BFA800E12E29 /* DailyPlannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE25D55C2D05BFA800E12E29 /* Build configuration list for PBXNativeTarget "DailyPlannerUITests" */;
 			buildPhases = (
+				D1543EC49344D213E65241AA /* [CP] Check Pods Manifest.lock */,
 				CE25D5472D05BFA800E12E29 /* Sources */,
 				CE25D5482D05BFA800E12E29 /* Frameworks */,
 				CE25D5492D05BFA800E12E29 /* Resources */,
+				1D408AF112086613A64C6A94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				CE25D54E2D05BFA800E12E29 /* DailyPlannerUITests */,
 			);
 			name = DailyPlannerUITests;
-			packageProductDependencies = (
-			);
 			productName = DailyPlannerUITests;
 			productReference = CE25D54B2D05BFA800E12E29 /* DailyPlannerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D408AF112086613A64C6A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner-DailyPlannerUITests/Pods-DailyPlanner-DailyPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner-DailyPlannerUITests/Pods-DailyPlanner-DailyPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner-DailyPlannerUITests/Pods-DailyPlanner-DailyPlannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E3F903367A643A165F1F9A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3600A91062252300D939911B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1543EC49344D213E65241AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyPlanner-DailyPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1BCD9BE841EEA18C192B47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE25D5272D05BFA600E12E29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,12 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		CE25D5552D05BFA800E12E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B4BA3D4780A88C1B7BBB16 /* Pods-DailyPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJA62MK9TU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +444,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,12 +460,14 @@
 		};
 		CE25D5562D05BFA800E12E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0604D76D84F0D314031455 /* Pods-DailyPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJA62MK9TU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +475,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,7 +515,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -373,6 +524,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_MODULE_VERIFIER = "$(CLANG_MODULES_ENABLE_VERIFIER_TOOL)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -427,7 +579,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -436,6 +588,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_MODULE_VERIFIER = "$(CLANG_MODULES_ENABLE_VERIFIER_TOOL)";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -459,6 +612,7 @@
 		};
 		CE25D55A2D05BFA800E12E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E98CB8E50AA672B5B9AD710 /* Pods-DailyPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +632,7 @@
 		};
 		CE25D55B2D05BFA800E12E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2007E958EB1A3A0505A09B /* Pods-DailyPlannerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +652,7 @@
 		};
 		CE25D55D2D05BFA800E12E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B622BEC03DB61F51B16B7D /* Pods-DailyPlanner-DailyPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +670,7 @@
 		};
 		CE25D55E2D05BFA800E12E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9204E761CD569B92C6AECA /* Pods-DailyPlanner-DailyPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
